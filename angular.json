@@ -24,9 +24,17 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/materialize-stepper/dist/css/mstepper.css",
+              "node_modules/materialize-css/dist/css/materialize.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/materialize-stepper/dist/js/mstepper.js",
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/hammerjs/hammer.js",
+              "node_modules/materialize-css/dist/js/materialize.js"
+            ]
           },
           "configurations": {
             "production": {
